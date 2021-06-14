@@ -16,6 +16,6 @@ jobs:
       uses: ishitachawla/Check-Requirements@master
       with:
         repository: ${{ github.repository }}
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.PAT_Token}}
     - name: Get the output 
       run: echo ${{secrets.GITHUB_TOKEN}}
