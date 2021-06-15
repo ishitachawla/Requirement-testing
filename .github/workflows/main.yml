@@ -16,7 +16,7 @@ jobs:
       uses: ishitachawla/Final@check
       with:
         repo_name: ${{ github.event.repository.name }}
-        owner_name: ${{github.repository_owner}}
+        repo_owner: ${{github.repository_owner}}
         GITHUB_TOKEN: ${{ secrets.PAT_Token }}
     - name: Get the output 
       run: echo ${{secrets.PAT_Token}}
