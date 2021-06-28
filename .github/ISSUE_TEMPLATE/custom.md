@@ -2,7 +2,7 @@
 name: Custom issue template
 about: Describe this issue template's purpose here.
 title: ''
-labels: idle
+labels: need-to-triage, idle
 assignees: ''
 
 ---
