@@ -11,10 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: testing action
-      id: hello
+    - name: Testing action
       uses: ishitachawla/action-repo-validation@main
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_Token }}
-    - name: Get the output 
-      run: echo ${{secrets.PAT_Token}}
