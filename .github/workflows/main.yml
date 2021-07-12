@@ -15,5 +15,3 @@ jobs:
       uses: ishitachawla/Check-Requirements@master
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_Token }}
-    - name: Display the path
-      run: echo ./
