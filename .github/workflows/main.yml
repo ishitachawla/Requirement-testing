@@ -16,4 +16,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_Token }}
     - name: Display the path
-      run: echo $PATH
+      run: echo ./
