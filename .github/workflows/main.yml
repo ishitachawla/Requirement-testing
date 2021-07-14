@@ -29,7 +29,6 @@ jobs:
            cat index.json
            git config --local user.email "ishitachawla@github.com"
            git config --local user.name "ishitachawla"
-           git pull
            git add --all
            if [-z "$(git status --porcelain)"]; then
              echo "::set-output name=push::false"
