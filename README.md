@@ -1,4 +1,3 @@
 # Requirement-testing
-# Readme
-## Example
+# README
 ## Contribution guidelines
