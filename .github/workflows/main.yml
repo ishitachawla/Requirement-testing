@@ -1,4 +1,4 @@
-name: "repo-validation"
+name: "action-validation-1"
 
 on: workflow_dispatch
 
