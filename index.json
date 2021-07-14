@@ -4,7 +4,7 @@
 		"readmeChecks": "Yes",
 		"codeOwnerCheck": "Yes",
 		"nodeModulesCheck": "Yes",
-		"branchPermissionCheck": "Yes",
+		"branchPermissionCheck": "No",
 		"releasesNodeModulesCheck": "No",
 		"vulnerabilityBotCheck": "Yes",
 		"issueTemplateCheck": "Yes",
