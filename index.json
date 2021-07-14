@@ -1,0 +1,24 @@
+[
+	{
+		"repoName": "Requirement-testing",
+		"readmeChecks": "Yes",
+		"codeOwnerCheck": "Yes",
+		"nodeModulesCheck": "Yes",
+		"branchPermissionCheck": "Yes",
+		"releasesNodeModulesCheck": "No",
+		"vulnerabilityBotCheck": "Yes",
+		"issueTemplateCheck": "Yes",
+		"standardLabelsCheck": "No"
+	},
+	{
+		"repoName": "Check-Requirements",
+		"readmeChecks": "No",
+		"codeOwnerCheck": "No",
+		"nodeModulesCheck": "No",
+		"branchPermissionCheck": "No",
+		"releasesNodeModulesCheck": "unknown",
+		"vulnerabilityBotCheck": "Yes",
+		"issueTemplateCheck": "No",
+		"standardLabelsCheck": "No"
+	}
+]
