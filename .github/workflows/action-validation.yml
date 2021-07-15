@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Testing Action
-        uses: ishitachawla/action-repo-validation@releases/1
+        uses: GH-ACE/action-repo-validation@releases/1
         with:
           GITHUB_TOKEN: ${{secrets.PAT_TOKEN}}
           
