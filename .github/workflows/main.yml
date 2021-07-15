@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: validating action repos
       id: checks_validation
-      uses: ishitachawla/action-repo-validation@releases/3
+      uses: GH-ACE/action-repo-validation@releases/2
       continue-on-error: true
       with:
         GITHUB_TOKEN: ${{ secrets.PAT_Token }}
